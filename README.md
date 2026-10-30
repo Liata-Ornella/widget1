@@ -1,17 +1,67 @@
-# password_strength_meter
+# Password Strength Meter
 
-A new Flutter project.
+A reusable Flutter widget that evaluates password strength and provides visual feedback to help users create stronger and more secure passwords.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Evaluates password strength.
+- Provides visual feedback on password security.
+- Helps users identify weak passwords.
+- Simple and reusable widget design.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation and Run Instructions
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/Liata-Ornella/widget1.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd password_strength_meter
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the application:
+
+   ```bash
+   flutter run
+   ```
+
+## Widget Attributes
+
+The widget uses three main attributes:
+
+1. **Password:** Accepts the password entered by the user and provides the value used for strength evaluation.
+2. **Strength:** Represents the calculated password strength and determines the feedback displayed to the user.
+3. **OnChanged:** Allows the widget to respond when the password input changes.
+
+*Note: These descriptions should be adjusted if your actual implementation uses different attribute names.*
+
+## Screenshot
+
+The screenshot below shows the final user interface of the Password Strength Meter.
+
+![Password Strength Meter UI](assets/password_strength_meter.png)
+
+## Technologies Used
+
+- Flutter
+- Dart
+
+## Author
+
+**Liata Ornella Sifa**
+
+GitHub: [Liata-Ornella](https://github.com/Liata-Ornella)
+
+## License
+
+This project is intended for educational and demonstration purposes.

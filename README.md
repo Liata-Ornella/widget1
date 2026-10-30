@@ -49,7 +49,9 @@ The widget uses three main attributes:
 
 The screenshot below shows the final user interface of the Password Strength Meter.
 
-![Password Strength Meter UI](assets/password_strength_meter.png)
+<img width="687" height="952" alt="password valid" src="https://github.com/user-attachments/assets/750e7560-d241-41ad-84d2-20bcb6b39bfa" />
+
+
 
 ## Technologies Used
 
